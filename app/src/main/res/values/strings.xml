@@ -197,7 +197,7 @@
 
     <string name="backup_app_check_success_intro">%1$d snapshots were found and %2$d%% of their data (%3$s) successfully verified:</string>
     <string name="backup_app_check_success_disclaimer">Note: we cannot verify whether individual apps include all of their user data in the backup.</string>
-    <string name="backup_app_check_error_title">@string/notification_checking_error_title</string>
+    <string name="backup_app_check_error_title" translatable="false">@string/notification_checking_error_title</string>
     <string name="backup_app_check_error_no_snapshots">We could not find any backup. Please run a successful backup first and then try checking again.</string>
     <string name="backup_app_check_error_only_broken_snapshots">We found %1$d backup snapshots. However, all of them were corrupted. Please run a successful backup and then try checking again.</string>
     <string name="backup_app_check_error_has_snapshots">We found %1$d backup snapshots, some of them are corrupt or have errors. Below are the backups that could be restored.</string>
